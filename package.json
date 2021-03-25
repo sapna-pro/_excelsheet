@@ -1,0 +1,22 @@
+{
+  "name": "assignment-7-sapna-pro",
+  "version": "1.0.0",
+  "description": "assignment-7-sapna-pro created by GitHub Classroom",
+  "main": "index.js",
+  "scripts": {
+    "sass": "./node_modules/.bin/node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-7-sapna-pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-sapna-pro/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-sapna-pro#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

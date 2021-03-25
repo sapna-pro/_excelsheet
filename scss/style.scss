@@ -1,0 +1,125 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .logo {
+    height: 5rem;
+    margin: 1rem;
+  }
+  
+  .heading {
+    margin-left: 1rem;
+  }
+
+  .name {
+    font-size: 2.6rem;
+    display: inline;
+    font-weight: 500;
+    font-family: Arial;
+  }
+
+
+  table {
+    width: 70%;
+    font: 17px Calibri;
+  }
+  table, th, td {
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      font-size: 62.5%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .description {
+        font-size: 1.6rem;
+        font-weight: 200;
+      }
+      
+      .spreadsheet {
+        margin: 1rem 0.5rem;
+      }
+      
+      table,
+      td,
+      th,
+      tr {
+        border: 0.05rem solid rgba(197, 197, 197, 0.486);
+        font-size: 1.4rem;
+        height: 2.5rem;
+        border-spacing: 0rem;
+      }
+      
+      th {
+        font-weight: 500;
+      }
+      
+      thead {
+        /* background-color: rgb(160, 180, 206); */
+        background-color: #f1f1f1;
+        /* color: #fff; */
+      }
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {
+        display: block;
+      }
+      
+      .column-header-span {
+        cursor: pointer;
+      }
+      
+      .spreadsheet-controls {
+        margin-left: 0.5rem;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem 1.5rem;
+      }
+      
+      .btn {
+        padding: 0.5rem 1.5rem;
+        background-color: coral;
+        color: #fff;
+        border-color: coral;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: ease 0.3s;
+      }
+      
+      .btn:hover {
+        color: #fff;
+        background-color: coral;
+        border-color: coral;
+      }
+    
+      .highlight {
+        border: 1px solid;
+    }
+    
+    .selected input {
+        background-color: #AFFFDF;
+        color: whitesmoke;
+    }
+    
+    .formula input {
+       
+        color: black;
+    }
+    
+    .highlight input {
+        background-color:lightblue;
+        color: #fff;
+    }

@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreadsheet</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <link rel="shortcut icon" href="img/google-sheets-logo-.png" type="image/x-icon">
+</head>
+<body>
+    <section class="title">
+        <img src="img/google-sheets-logo-.png" alt="sheet" class="logo">
+        <div class="heading">
+            <h1 class="name">Spreadsheet</h1>
+        </div>
+    </section>
+
+    <div id="mainContent" class="spreadsheet">
+        <div class="spreadsheet-controls">
+            
+                <input type="button" id="addRow" value=" + Row" class="btn">
+                <input type="button" id="addCol" value=" + Column" class="btn">
+                <input type="button" id="delRow" value=" - Row" class="btn">
+                <input type="button" id="delCol" value=" - Column" class="btn">
+                <input type="button" id="exportTableToCSV" value="Export To CSV File" class="btn">
+                <input type="file" id="fileUpload"/>
+                <input type="button" id="upload" value="Upload" class="btn"/>
+                <div id="table">
+    
+                </div>       
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <script type= "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.0/Rx.js"></script>
+    <script src= "js/script.js"></script> 
+</body>
+</html>
